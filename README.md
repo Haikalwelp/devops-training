@@ -28,4 +28,4 @@ The pipeline consists of the following steps:
 2. **Install dependencies:** Uses `npm install` to install the project's dependencies.
 3. **Run tests:** Uses `npm test` to run the Jest tests.
 
-If all steps are successful, the pipeline will pass. If any step fails, the pipeline will fail, and you'll need to investigate and fix the issue.
+If all steps are successful, the pipeline will pass. If any step fails, the pipeline will fail, and you'll need to investigate and fix the issu.
