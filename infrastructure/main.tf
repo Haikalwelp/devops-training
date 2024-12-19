@@ -1,6 +1,5 @@
 data "google_storage_bucket" "website_bucket" {
   name     = "sispaa-revamp-website-bucket" # Replace with your bucket name
-  location = "asia-northeast1"
 }
 
 resource "google_storage_bucket" "website_bucket" {
