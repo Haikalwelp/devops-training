@@ -1,5 +1,5 @@
-function greet(names) {
-  return `Hello, ${names}!`;
+function greet(name) {
+  return `Hello, ${name}!`;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
