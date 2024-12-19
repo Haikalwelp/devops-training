@@ -19,8 +19,6 @@ jobs:
           commit-message: 'Sync branch with main'
           title: 'Sync branch with main'
           body: 'This PR automatically updates this branch to match the latest changes in the main branch.'
-          branch-suffix: 'sync-with-main'
           base: main
           labels: 'sync'
-          auto-merge: true
-          auto-merge-method: 'squash'
+          add-paths: '["*"]'
