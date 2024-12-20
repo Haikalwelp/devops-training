@@ -32,6 +32,10 @@ jobs:
       run: terraform init
       working-directory: ./infrastructure
 
+    - name: Terraform Import
+      run: terraform import google_storage_bucket.website_bucket sispaa-revamp-website-bucket
+      working-directory: ./infrastructure
+
     - name: Terraform Apply
       run: terraform apply -auto-approve
       working-directory: ./infrastructure
