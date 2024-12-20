@@ -1,3 +1,10 @@
+terraform {
+  backend "gcs" {
+    bucket = "sispaa-revamp-terraform-state"
+    prefix = "terraform/state"
+  }
+}
+
 locals {
   bucket_name = "sispaa-revamp-website-bucket"
 }
