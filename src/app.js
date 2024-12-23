@@ -4,7 +4,7 @@ function greet(names) {
 
 document.addEventListener('DOMContentLoaded', () => {
   const contentDiv = document.getElementById('content');
-  contentDiv.textContent = 'HI!';
+  contentDiv.textContent = 'REAL!';
 });
 
 module.exports = { greet };
